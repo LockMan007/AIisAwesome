@@ -1,3 +1,7 @@
+## FOR SOME REASON, THE STUPID AI ISN'T FOLLOWING THE INSTRUCTIONS ON A NEW ACCOUNT AND WILL SAY IT FIXED CHANGES, BUT CHANGES NOTHING.
+## I"M WORKING TO RESOLVE THIS.
+
+
 AceStep 1.5 song lyrics writing with LLM chat.
 
 This node will Write lyrics for Ace Step 1.5 in ComfyUI made for a custom node I made.
