@@ -5,6 +5,7 @@ AI is Awesome
 RIP Discord.
 
 I'm not going to be on Discord unless they walk this back.
+To my knowledge, I've logged out of all devices I use discord on.
 
 I am a grown adult, but I will not surrender my identity to a chat room company who isn't responsible with private data like live face scans and pictures of ID cards, especially since they already proved that using their 3rd party, resulted in a data breach, releasing the info they collected to malicious people.
 
