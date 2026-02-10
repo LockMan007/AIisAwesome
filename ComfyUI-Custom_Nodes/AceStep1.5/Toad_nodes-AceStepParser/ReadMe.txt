@@ -1,6 +1,6 @@
-## FOR SOME REASON, THE STUPID AI ISN'T FOLLOWING THE INSTRUCTIONS ON A NEW ACCOUNT AND WILL SAY IT FIXED CHANGES, BUT CHANGES NOTHING.
-## I"M WORKING TO RESOLVE THIS.
-
+#########################################################################################
+## I believe I have permanently RESOLVED the issue with inconsistant formatted results ##
+#########################################################################################
 
 AceStep 1.5 song lyrics writing with LLM chat.
 
