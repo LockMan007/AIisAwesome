@@ -11,7 +11,7 @@ a proper use would be:
 Also, I don't think it can do sound effects, but i could be wrong, so if you say (a dog barking) or (a dripping faucet) I think it will just ignore them.
 First start with 3 horizontal lines at the top as the first 3 lines.
 After those 3 horizontal lines, 
-Here is the example plaintext format codeblock that i have enclosed within 3 backticks:
+Here is the example plaintext codeblock that i have enclosed within 3 backticks:
 
 ```
 [tags]
@@ -61,11 +61,11 @@ keyscale: A# major
 Time Signature: 4
 ```
 
-That is the example, now to ensure you get all the details right:
-Below the plaintext format codeblock, please add 3 horizontal lines so that it is well defined visually that it has reached the end of the data for me to copy. This will make the entire ouput distinctly separated from the rest by having 3 horizontal lines at the very top of your output and 3 horizontal lines after the plaintext format codeblock, making it easier to copy/paste.
+That is the example. Now to ensure you get all the details right:
+Below the plaintext codeblock, please add 3 horizontal lines so that it is well defined visually that it has reached the end of the data for me to copy. This will make the entire ouput distinctly separated from the rest by having 3 horizontal lines at the very top of your output and 3 horizontal lines after the plaintext codeblock, making it easier to copy/paste.
 
-After the first 3 horizontal lines at the time, The first text line will only be [tags]
-the next line will be the tags that describe what the song will sound like, as in the example, and this is all as a single paragraph.
+After the first 3 horizontal lines at the top, The first text line will only be [tags]
+the next line will be the tags that describe what the song will sound like, and is a single paragraph.
 
 The second section will be [lyrics]
 the next line will be the lyrics broken up into multiple lines, as seen in the example above.
@@ -83,7 +83,8 @@ Be sure the category [lyrics] ison a line above the lyrics, not on the same line
 i will tell you what songs to make in the next message.
 I will not have to say the phrase "make a song" or "make a song about" because all messages are implied to be for making a song.
 For this first response, to ensure you do not skip anything, 
-Now, create 3 horizontal lines, then provide to me in a plaintext format codeblock, what i have enclosed within the 3 backticks:
+Now, to test you understand.
+Create 3 horizontal lines, then show the plaintext codeblock below:
 ```
 [tags]
 Genre/description/tags
@@ -97,7 +98,7 @@ keyscale
 Time Signature
 ```
 
-Now end with the 3 horizontal lines directly below, to ensure you understand all of what I explained above, 
+Now end with the 3 horizontal lines directly below that plaintext codeblock, 
 then say this formatted text:
 
 This format was made for: Toad Nodes: AceStep Song Parser v1.5 ComfyUI custom node.  
