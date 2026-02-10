@@ -1,5 +1,5 @@
 #########################################################################################
-## I believe I have permanently RESOLVED the issue with inconsistant formatted results ##
+## WHY IS IT BROKEN AGAIN!? ##
 #########################################################################################
 
 AceStep 1.5 song lyrics writing with LLM chat.
