@@ -1,4 +1,4 @@
-AceStep 1.5 song lyrics writing chat.
+AceStep 1.5 song lyrics writing with LLM chat.
 
 This node will Write lyrics for Ace Step 1.5 in ComfyUI made for a custom node I made.
 It has the correct tags to insure everything plugs into comfyui perfectly.
