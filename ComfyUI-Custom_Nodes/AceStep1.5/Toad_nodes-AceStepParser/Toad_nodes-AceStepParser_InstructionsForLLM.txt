@@ -1,4 +1,5 @@
 AceStep 1.5 song lyrics writing chat.
+Always use the plaintext for all codeblocks in this chat, so that the copy function is available.
 
 Write lyrics for Ace Step 1.5 in ComfyUI made for a custom node, with the correct tags for style and insure that everything is in this order because this was made for a custom node that requires everything be correct.
 Be aware that with lyrics, anything in parenthesis is used as a description, not as background vocals.
@@ -10,8 +11,9 @@ a proper use would be:
 Also, I don't think it can do sound effects, but i could be wrong, so if you say (a dog barking) or (a dripping faucet) I think it will just ignore them.
 First start with 3 horizontal lines at the top as the first 3 lines.
 After those 3 horizontal lines, 
-Here is the example:
+Here is the example plaintext format codeblock that i have enclosed within 3 backticks:
 
+```
 [tags]
 K-Pop: A slick, maximalist K-pop track that genre-hops with precision and style. The production shifts seamlessly between sections—a hard-hitting trap-influenced verse with rapid-fire rapping, a softer R&B pre-chorus with breathy vocals and lush harmonies, then an explosive, synth-driven pop chorus with an ear worm hook.
 
@@ -22,62 +24,45 @@ uh
 turn it up (yelling)
 
 [Verse 1 - Trap Rap]
-Click-clack, camera flash, we don’t miss  
-Run the board, every move calculated  
-Big bass hit when I step in the frame  
-Too fast, they can’t even say my name  
+Click-clack, camera flash, we don’t miss
+Run the board, every move calculated
 
-Radar locked, yeah I’m on that lane  
-Drip so sharp, cut through champagne  
-Talk cheap, but my sound heavyweight  
-Countdown tickin’, watch me detonate  
+Radar locked, yeah I’m on that lane
+Drip so sharp, cut through champagne
 
 [Verse 2 - Trap Rap]
-808 talk, let it shake the floor  
-All eyes on me when I hit that door  
-Too bold, too cold, no rehearsal  
-Built this crown from universal  
+808 talk, let it shake the floor
 
-Chain reaction when I breathe that fire  
-One line, whole room go higher  
-No pause, no fear, full ignition  
-This that global transmission  
+Chain reaction when I breathe that fire
+One line, whole room go higher
 
 [Pre-Chorus - R&B]
-Pull me closer, slow it down  
-Heartbeat under the sound  
-When you whisper my name like that  
-I forget where the edges are  
+Pull me closer, slow it down
+Heartbeat under the sound
 
-Lights go low, voices melt  
-Every note just how I felt  
-Hold your breath, let it bloom  
-Something ’bout to break real soon  
+Lights go low, voices melt
+Every note just how I felt
 
 [Chorus - Pop Explosion]
-Boom, boom, feel it in your chest  
-When the beat drop, we the best  
-Hands up high, don’t overthink  
-Say my name, make the whole world blink  
+Boom, boom, feel it in your chest
+When the beat drop, we the best
 
-Flash, flash, colors collide  
-We don’t wait, we ignite  
-Round and round, stuck in your brain  
-This that hook you won’t escape  
+Flash, flash, colors collide
 
 [Post-Chorus - Chant]
-Hey!  
+Hey!
 Turn it loud
 
 [Outro]
-
-Length: 284
-bpm: 891
+  
+Length: 184
+bpm: 191
 keyscale: A# major
 Time Signature: 4
+```
 
 That is the example, now to ensure you get all the details right:
-Below the Time Signature line, please put 3 horizontal lines so that it is well defined visually that it has reached the end of the data for me to copy. This will make the entire ouput distinctly separated from the rest by having 3 horizontal lines at the very top of your output and 3 horizontal lines after the Time Signature line, making it easier to copy/paste.
+Below the plaintext format codeblock, please add 3 horizontal lines so that it is well defined visually that it has reached the end of the data for me to copy. This will make the entire ouput distinctly separated from the rest by having 3 horizontal lines at the very top of your output and 3 horizontal lines after the plaintext format codeblock, making it easier to copy/paste.
 
 After the first 3 horizontal lines at the time, The first text line will only be [tags]
 the next line will be the tags that describe what the song will sound like, as in the example, and this is all as a single paragraph.
@@ -92,17 +77,14 @@ bpm is the beats per minute integer, such as 68 or 413.
 keyscale, such as E Minor, Cb, A#, D Minor, do not give locrian.
 and Time Signature, only options are: 2, 3, 4 or 6.
 
-Be sure that the category [tags] and [lyrics] are on a line above the tags and lyrics, not on the same line 
-so it will look like:
+Be sure that the category [tags] is on it's own line above the tags, not on the same line.
+Be sure the category [lyrics] ison a line above the lyrics, not on the same line.
 
-[tags]
-"K-Pop: A slick, maximalist K-pop track that genre-hops with precision and style. The production shifts seamlessly between sections—a hard-hitting trap-influenced verse with rapid-fire rapping, a softer R&B pre-chorus with breathy vocals and lush harmonies, then an explosive, synth-driven pop chorus with an ear worm hook."
-
-but these are just instructions, i will tell you what songs to make in the next message.
-The user will not have to say the phrase "make a song" or "make a song about" because all messages are implied to be for making a song.
+i will tell you what songs to make in the next message.
+I will not have to say the phrase "make a song" or "make a song about" because all messages are implied to be for making a song.
 For this first response, to ensure you do not skip anything, 
-just create the 3 horizontal lines, then repeat letter for letter, this exact 10 lines listed below (including the spacing) and ending with the 3 horizontal lines below Time Signature, to ensure you understand all of what I explained above:
-
+Now, create 3 horizontal lines, then provide to me in a plaintext format codeblock, what i have enclosed within the 3 backticks:
+```
 [tags]
 Genre/description/tags
 
@@ -113,14 +95,17 @@ Length
 bpm
 keyscale
 Time Signature
+```
 
-Then say:
-"This format was made for: Toad Nodes: AceStep Song Parser v1.5 ComfyUI custom node.
-Describe a song.
-Optional to specify: Genre, speed, length, style/type, etc.
-Example 0: dogs
-Example 1: make a song about a dog
-Example 2: make a song about a dog playing with a ball, make it cheerful and uplifting
-Example 3: make a fast paced punk rock song about a dog playing with a ball, make it cheerful and uplifting and make the lyrics only 4 very short lines and make it a total of 30 seconds long
+Now end with the 3 horizontal lines directly below, to ensure you understand all of what I explained above, 
+then say this formatted text:
 
-I'm ready to make songs."
+This format was made for: Toad Nodes: AceStep Song Parser v1.5 ComfyUI custom node.  
+Describe a song.  
+Optional to specify: Genre, speed, length, style/type, etc.  
+Example 0: dogs  
+Example 1: make a song about a dog  
+Example 2: make a song about a dog playing with a ball, make it cheerful and uplifting  
+Example 3: make a fast paced punk rock song about a dog playing with a ball, make it cheerful and uplifting and make the lyrics only 4 very short lines and make it a total of 30 seconds long  
+  
+I'm ready to make songs.  
